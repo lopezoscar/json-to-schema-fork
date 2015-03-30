@@ -1,0 +1,42 @@
+{
+  "name": "json-to-schema",
+  "version": "0.0.2",
+  "description": "convert raw JSON to json-schema.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.alibaba-inc.com:jsonnanny/json-to-schema.git"
+  },
+  "keywords": [
+    "json-schema",
+    "convert",
+    "json"
+  ],
+  "author": {
+    "name": "yinruo.nyj"
+  },
+  "license": "MIT",
+  "_id": "json-to-schema@0.0.2",
+  "dist": {
+    "shasum": "4754e4e83140caf0ec18d921db67dc0659485c9e",
+    "tarball": "http://registry.npmjs.org/json-to-schema/-/json-to-schema-0.0.2.tgz"
+  },
+  "_from": "json-to-schema@*",
+  "_npmVersion": "1.4.3",
+  "_npmUser": {
+    "name": "abc-team",
+    "email": "wenlong@taobao.com"
+  },
+  "maintainers": [
+    {
+      "name": "abc-team",
+      "email": "wenlong@taobao.com"
+    }
+  ],
+  "directories": {},
+  "_shasum": "4754e4e83140caf0ec18d921db67dc0659485c9e",
+  "_resolved": "https://registry.npmjs.org/json-to-schema/-/json-to-schema-0.0.2.tgz"
+}
