@@ -1,6 +1,8 @@
 ## JSON TO JSON-Schema
 
-给定数据转化为json-schema定义.
+给定数据转化为json-schema定义. FORK from https://www.npmjs.com/package/json-to-schema
+
+
 
 convert raw JSON to json-schema.
 
@@ -8,7 +10,7 @@ convert raw JSON to json-schema.
 
 ## 安装
 
-[TBower](http://bower.fed.taobao.net/#/home)
+
 
 ```
 tbower install json-to-schema --save
