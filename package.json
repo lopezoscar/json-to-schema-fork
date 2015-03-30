@@ -2,7 +2,7 @@
   "name": "json-to-schema-fork",
   "version": "1.0.0",
   "description": "给定数据转化为json-schema定义.",
-  "main": "index.js",
+  "main": "src/index.js",
   "directories": {
     "test": "test"
   },
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "https://github.com/lopezoscar/json-to-schema-fork.git"
   },
-  "author": "lopezoscar",
+  "author": "yinruo.nyj",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/lopezoscar/json-to-schema-fork/issues"
