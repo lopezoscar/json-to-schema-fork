@@ -1,6 +1,6 @@
 {
   "name": "json-to-schema-fork",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "给定数据转化为json-schema定义.",
   "main": "src/index.js",
   "directories": {
