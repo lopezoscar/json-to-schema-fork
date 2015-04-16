@@ -18,7 +18,12 @@
     JSONToSchema._generator = function( data ){
 
         if( typeof data === 'string' ){
-            return this._stringGenerator( data );
+
+            if(config && config.textarea && config.textarea.indexOf(key)>-1){
+                return this._textAreaGenerator( data );
+            }else{
+                return this._stringGenerator( data );
+            }
         }
         else if( typeof data === 'number' ){
             if( /\./.test( data ) ){
@@ -97,6 +102,22 @@
             type: 'string',
             title: '',
             'default':data
+        };
+    };
+
+    /**
+     * Textearea para la wysiwyg
+     * @param data
+     * @returns {{type: string, format: string, options: {wysiwyg: boolean}}}
+     * @private
+     */
+    JSONToSchema._textAreaGenerator = function( data ){
+        return {
+            type: 'string',
+            format: 'html',
+            options: {
+                wysiwyg: true
+            }
         };
     };
 
