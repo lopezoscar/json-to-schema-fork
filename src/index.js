@@ -5,8 +5,8 @@
      * @param data
      * @returns {String}
      */
-        var JSONToSchema = function( data ){
-
+        var JSONToSchema = function( data,config ){
+        JSONToSchema.config = config;
         return JSONToSchema._generator( data );
     };
 
@@ -15,8 +15,8 @@
      * @param data
      * @returns {*}
      */
-    JSONToSchema._generator = function( data ){
-
+    JSONToSchema._generator = function( data ,key){
+        var config = JSONToSchema.config;
         if( typeof data === 'string' ){
 
             if(config && config.textarea && config.textarea.indexOf(key)>-1){
