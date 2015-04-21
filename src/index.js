@@ -66,7 +66,7 @@
 
         for( key in data ){
             item = data[ key ];
-            ret.properties[ key ] = this._generator( item );
+            ret.properties[ key ] = this._generator( item ,key);
         }
 
         return ret;
@@ -118,6 +118,7 @@
             options: {
                 wysiwyg: true
             }
+            ,'default':data
         };
     };
 
